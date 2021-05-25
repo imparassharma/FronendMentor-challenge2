@@ -1,0 +1,85 @@
+
+body{
+
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+.main{
+    background-color: hsl(244, 38%, 16%);
+    position: absolute;
+    top: 20%;
+    width: 70vw;
+    height: 60vh;
+    right: 15%;
+    border-radius: 5px;
+}
+
+.main img{
+    border-radius: 0 5px 5px 0;
+    width: 48.81%;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    z-index: 0;
+}
+
+.overlay{
+    background-color: rgba(103, 22, 153, 0.486);
+    border-radius: 0 5px 5px 0;
+    width: 48.81%;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    z-index: 1;
+}
+
+
+.text1{
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    width: 35%;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+}
+
+.text1 span{
+    color: hsl(277, 64%, 61%);
+}
+.text2{
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    width: 35%;
+}
+
+.text2 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.stats{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    position: absolute;
+    left: 7%;
+    top: 70%;
+    width: 50%;
+}
+
+.stat1{
+    display: inline-block;
+    word-spacing: 87px;
+}
+
+.stat2 p{
+    position: relative;
+    bottom: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    word-spacing: 70px;
+}
